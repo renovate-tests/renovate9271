@@ -1,4 +1,5 @@
 {
+  "trustLevel": "high",
   "gomod": {
     "postUpgradeTasks": {
       "commands": ["git checkout ."],
