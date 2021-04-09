@@ -1,7 +1,7 @@
 {
   "gomod": {
     "postUpgradeTasks": {
-      "commands": ["touch vendor/BUILD.bazel"],
+      "commands": ["echo 'abc123' > vendor/BUILD.bazel"],
       "fileFilters": ["**/*"]
     }
   },
