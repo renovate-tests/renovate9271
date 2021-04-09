@@ -1,12 +1,10 @@
 {
-  "enabledManagers": ["gomod"],
-  "trustLevel": "high",
   "gomod": {
     "postUpgradeTasks": {
       "commands": ["git checkout ."],
       "fileFilters": ["**/*"]
     }
   },
-  "postUpdateOptions": ["gomodeTidy"],
+  "postUpdateOptions": ["gomodTidy"],
   "allowedPostUpgradeCommands": [".*"]
 }
