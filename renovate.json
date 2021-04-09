@@ -1,0 +1,8 @@
+{
+  "gomod": {
+    "postUpgradeTasks": {
+      "commands": ["git checkout ."],
+      "fileFilters": ["**/*"]
+    }
+  }
+}
