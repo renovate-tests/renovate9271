@@ -5,5 +5,7 @@
       "commands": ["git checkout ."],
       "fileFilters": ["**/*"]
     }
-  }
+  },
+  "postUpdateOptions": ["gomodeTidy"],
+  "allowedPostUpgradeCommands": [".*"]
 }
